@@ -58,7 +58,7 @@
 			{
 			require_once('AfricasTalkingGateway.php');
 			$username   = "e-payroll";
-			$apikey     = "d4156785bd48abb3e9815748e5e2d8f97399ced3930be1318c0851532862a780";
+			$apikey     = "#######";
 			$recipients = $_POST["phone"];
 			$message    = $_POST["message"];
 			$gateway    = new AfricasTalkingGateway($username, $apikey);
@@ -90,7 +90,7 @@
 			$recipients ='';
 			require_once('AfricasTalkingGateway.php');
 			$username   = "e-payroll";
-			$apikey     = "d4156785bd48abb3e9815748e5e2d8f97399ced3930be1318c0851532862a780";
+			$apikey     = "########";
 			$recipients = $_POST["recipients"];
 			$message    = $_POST["message"];
 			$gateway    = new AfricasTalkingGateway($username, $apikey);
