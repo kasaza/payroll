@@ -1,0 +1,98 @@
+/*---- responsive-design -----*/
+@media(max-width:1440px){
+.main {
+    width: 56%;
+		margin-left:40px;
+}
+}
+@media(max-width:1366px){
+.main {
+    width: 59%;
+	margin-left:40px;
+}
+}
+@media(max-width:1280px){
+h1 {
+    font-size: 2.5em;
+}
+.main {
+    width: 63%;
+}
+}
+@media(max-width:1080px){
+.main {
+    width: 74%;
+	margin: 2em auto;
+}
+}
+@media(max-width:1024px){
+.main {
+    width: 82%;
+}
+.signin-form {
+    padding: 3em 2.5em;
+}
+}
+@media(max-width:991px){
+.main {
+    width: 85%;
+}
+}
+@media(max-width:900px){
+.main {
+    width: 93%;
+}
+}
+@media(max-width:800px){
+.main {
+    width: 51%;
+}
+.w3 {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 5%;
+}
+.agile {
+    float: none;
+    width: 100%;
+}
+.signin-form p a {
+    line-height: 1.8em;
+}
+}
+@media(max-width:768px){
+.main {
+    width: 53%;
+}
+}
+@media(max-width:736px){
+.main {
+    width: 55%;
+}
+}
+/*-- w3layouts --*/
+@media(max-width:667px){
+.main {
+    width: 61%;
+}
+}
+@media(max-width:640px){
+.main {
+    width: 64%;	margin-left:400px;
+}
+}
+@media(max-width:600px){
+.main {
+    width: 68%;	margin-left:400px;
+}
+}
+@media(max-width:568px){
+.main {
+    width: 72%;	margin-left:400px;
+}
+}
+@media(max-width:480px){
+.main {
+    width: 78%;	margin-left:400px;
+}
