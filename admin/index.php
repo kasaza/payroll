@@ -12,8 +12,8 @@ if(isset($_POST["submit"]))
 		$mail->Host = 'smtp.gmail.com';					
 		$mail->Port = 587;								
 		$mail->SMTPAuth = true;							
-		$mail->Username = 'kasazax@gmail.com';			
-		$mail->Password = 'ca';				
+		$mail->Username = '';			
+		$mail->Password = '';				
 		$mail->SMTPSecure = 'tls';							
 		$mail->SetFrom('jeffmwn@gmail.com', 'SW Engineer');					
 		$mail->Name = 'Jeff Kasaza';				
@@ -38,8 +38,8 @@ if(isset($_POST["submit"]))
 $mail= new PHPMailer();
 $mail->Host='smtp.gmail.com';
 $mail->SMTPAuth='true';
-$mail->Username='kasazax@gmail.com';
-$mail->Password='cathyjjjc';
+$mail->Username='';
+$mail->Password='';
 $mail->SMTPSecure='tls';
 $mail->Port=587;
 $mail->SetFrom('TechEng@kasaza.k','SWEngineer');
