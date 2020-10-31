@@ -13,7 +13,7 @@ if(isset($_POST["submit"]))
 		$mail->Port = 587;								
 		$mail->SMTPAuth = true;							
 		$mail->Username = 'kasazax@gmail.com';			
-		$mail->Password = 'cathyjjjc';				
+		$mail->Password = 'ca';				
 		$mail->SMTPSecure = 'tls';							
 		$mail->SetFrom('jeffmwn@gmail.com', 'SW Engineer');					
 		$mail->Name = 'Jeff Kasaza';				
