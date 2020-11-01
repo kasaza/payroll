@@ -37,8 +37,8 @@
 			$mail->SMTPAuth = true;                                   
 			$mail->Host = 'smtp.gmail.com'; 
 			$mail->SMTPAuth = true;                            
-			$mail->Username = 'jeffmwn@gmail.com';                 
-			$mail->Password = 'cathyjjjc';                         
+			$mail->Username = 'email@mail.com';                 
+			$mail->Password = '####';                         
 			$mail->SMTPSecure = 'tls';                           
 			$mail->Port = 587;                                  
 			$mail->setFrom('jeffmwn@gmail.com', 'E-Payroll TUM');
@@ -145,8 +145,8 @@
 			$mail->SMTPAuth = true;                                   
 			$mail->Host = 'smtp.gmail.com'; 
 			$mail->SMTPAuth = true;                            
-			$mail->Username = 'jeffmwn@gmail.com';                 
-			$mail->Password = 'cathyjjjc';                         
+			$mail->Username = 'email@mail.com';                 
+			$mail->Password = '#####';                         
 			$mail->SMTPSecure = 'tls';                           
 			$mail->Port = 587;                                  
 			$mail->setFrom('jeffmwn@gmail.com', 'E-Payroll');
